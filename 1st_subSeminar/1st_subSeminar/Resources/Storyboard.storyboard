@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--First View-->
+        <scene sceneID="wHg-IG-D8B">
+            <objects>
+                <viewController id="422-bv-aeT" customClass="FirstViewVC" customModule="_st_subSeminar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hPO-Jy-nRw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eIe-Mn-gre">
+                                <rect key="frame" x="179" y="502" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="eIe-Mn-gre" secondAttribute="height" multiplier="28:15" id="AlH-2x-XR1"/>
+                                </constraints>
+                                <state key="normal" title="상태 전달"/>
+                                <connections>
+                                    <segue destination="XXf-nZ-djM" kind="show" id="z9d-Mj-a63"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vFs-Am-Ai7">
+                                <rect key="frame" x="139.5" y="358" width="135" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="vFs-Am-Ai7" secondAttribute="height" multiplier="131:30" id="Soa-P2-QfN"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="eIe-Mn-gre" firstAttribute="top" secondItem="vFs-Am-Ai7" secondAttribute="bottom" constant="113" id="9tp-MB-bug"/>
+                            <constraint firstItem="vFs-Am-Ai7" firstAttribute="centerX" secondItem="Emn-KA-hal" secondAttribute="centerX" id="Dee-1m-GDq"/>
+                            <constraint firstItem="eIe-Mn-gre" firstAttribute="centerX" secondItem="Emn-KA-hal" secondAttribute="centerX" id="aSD-sN-r94"/>
+                            <constraint firstItem="vFs-Am-Ai7" firstAttribute="top" secondItem="Emn-KA-hal" secondAttribute="top" constant="270" id="rEk-Ew-0B1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Emn-KA-hal"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="First View" id="zd8-5G-W9i"/>
+                    <connections>
+                        <outlet property="segmentCtrl" destination="vFs-Am-Ai7" id="vz9-Qe-tvg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kgh-Vl-5BY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1018.840579710145" y="54.910714285714285"/>
+        </scene>
+        <!--Second ViewVC-->
+        <scene sceneID="78l-La-jYD">
+            <objects>
+                <viewController id="XXf-nZ-djM" customClass="SecondViewVC" customModule="_st_subSeminar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XCW-1J-G5H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGL-cG-LYt">
+                                <rect key="frame" x="180" y="532" width="56" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aGL-cG-LYt" secondAttribute="height" multiplier="28:15" id="Jdq-hz-XjF"/>
+                                </constraints>
+                                <state key="normal" title="상태 전달"/>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="76K-tT-giV">
+                                <rect key="frame" x="139.5" y="388" width="135" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="76K-tT-giV" secondAttribute="height" multiplier="131:30" id="fLy-6n-Rai"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="First"/>
+                                    <segment title="Second"/>
+                                </segments>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="aGL-cG-LYt" firstAttribute="leading" secondItem="416-E4-1oM" secondAttribute="leading" constant="180" id="Nte-wT-Tco"/>
+                            <constraint firstItem="aGL-cG-LYt" firstAttribute="top" secondItem="76K-tT-giV" secondAttribute="bottom" constant="113" id="TrR-LM-jfb"/>
+                            <constraint firstItem="76K-tT-giV" firstAttribute="width" secondItem="76K-tT-giV" secondAttribute="height" multiplier="131:30" id="Vl6-Sk-bZT"/>
+                            <constraint firstItem="76K-tT-giV" firstAttribute="top" secondItem="416-E4-1oM" secondAttribute="top" constant="300" id="kER-rk-Ua0"/>
+                            <constraint firstItem="76K-tT-giV" firstAttribute="centerX" secondItem="416-E4-1oM" secondAttribute="centerX" id="qv4-fe-Qad"/>
+                            <constraint firstItem="aGL-cG-LYt" firstAttribute="width" secondItem="aGL-cG-LYt" secondAttribute="height" multiplier="28:15" id="s0e-ZG-OEq"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="416-E4-1oM"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Jzq-T8-x77"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hQy-GG-RzK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1943" y="55"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bvx-9F-arf">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ged-lY-fXV" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3Sm-Ao-3rp">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="422-bv-aeT" kind="relationship" relationship="rootViewController" id="eNd-RT-zjb"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bX8-A2-Ka2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="111.59420289855073" y="54.910714285714285"/>
+        </scene>
+    </scenes>
+</document>
