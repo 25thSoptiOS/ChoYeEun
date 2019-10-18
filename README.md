@@ -20,7 +20,8 @@
 2. Autolayout
 3. Add UIClass
 
-<img width="200" alt="스크린샷 2019-10-18 오후 2 15 59" src="https://user-images.githubusercontent.com/31615715/67067674-2a708280-f1b2-11e9-8a5f-34beb837f009.png">
+<img width="200" alt="스크린샷 2019-10-18 오후 2 15 59" src="https://user-images.githubusercontent.com/31615715/67067674-2a708280-f1b2-11e9-8a5f-34beb837f009.png"> <img width="200" alt="스크린샷 2019-10-18 오후 2 28 09" src="https://user-images.githubusercontent.com/31615715/67068140-0746d280-f1b4-11e9-8add-8d0e3f1f524c.png">
+
 
 ```swift
 @IBDesignable
