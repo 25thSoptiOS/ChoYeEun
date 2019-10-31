@@ -192,6 +192,9 @@
                                 <rect key="frame" x="177" y="479" width="60" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="onBack:" destination="T3D-ze-oIa" eventType="touchUpInside" id="qMN-dT-3JV"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>

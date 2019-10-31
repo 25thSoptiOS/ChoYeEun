@@ -8,12 +8,14 @@
 
 import UIKit
 
-class LoginVC: UIViewController {
+class LoginVC: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var logoImgView: UIImageView!
     @IBOutlet var loginUserid: UIView!
     @IBOutlet var loginPassword: UIView!
     @IBOutlet var stackViewCenterY: NSLayoutConstraint!
+    @IBOutlet var idTextField: UITextField!
+    @IBOutlet var pwTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()

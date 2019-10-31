@@ -25,5 +25,9 @@ class TwoVC: UIViewController {
         resultUpdate.text = (self.paramUpdate == true ? "갱신 완료": "노 갱신")
         resultInterval.text = "\(Int(paramInterval))분 마다 갱신"
     }
-
+    
+    @IBAction func onBack(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
+    
 }
