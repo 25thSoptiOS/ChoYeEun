@@ -12,6 +12,16 @@
 		3AC51B1E236420B5003AD05F /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC51B1D236420B5003AD05F /* Banner.swift */; };
 		3AC51B2023642251003AD05F /* BannerCVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC51B1F23642251003AD05F /* BannerCVCViewController.swift */; };
 		3AC51B2323642842003AD05F /* UIViewcontroller+AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC51B2223642842003AD05F /* UIViewcontroller+AppDelegate.swift */; };
+		3ACAC59C236A950100650416 /* WorkCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC59B236A950100650416 /* WorkCVC.swift */; };
+		3ACAC59E236A951600650416 /* WorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC59D236A951600650416 /* WorkCell.swift */; };
+		3ACAC5A0236A955800650416 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC59F236A955800650416 /* Work.swift */; };
+		3ACAC5C3236D418D00650416 /* NetwrokResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5C2236D418D00650416 /* NetwrokResult.swift */; };
+		3ACAC5C5236D425700650416 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5C4236D425700650416 /* APIConstants.swift */; };
+		3ACAC5C7236D43FD00650416 /* ResponseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5C6236D43FD00650416 /* ResponseString.swift */; };
+		3ACAC5C9236D44F700650416 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5C8236D44F700650416 /* LoginService.swift */; };
+		3ACAC5CB236D5BCD00650416 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5CA236D5BCD00650416 /* SignUpVC.swift */; };
+		3ACAC5CD236D5ED800650416 /* SignUpVO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5CC236D5ED800650416 /* SignUpVO.swift */; };
+		3ACAC5CF236D5F1900650416 /* SignUpService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ACAC5CE236D5F1900650416 /* SignUpService.swift */; };
 		3AFD48F52351959400122639 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD48F42351959400122639 /* AppDelegate.swift */; };
 		3AFD48F72351959400122639 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD48F62351959400122639 /* SceneDelegate.swift */; };
 		3AFD48F92351959400122639 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AFD48F82351959400122639 /* ViewController.swift */; };
@@ -32,6 +42,16 @@
 		3AC51B1D236420B5003AD05F /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		3AC51B1F23642251003AD05F /* BannerCVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCVCViewController.swift; sourceTree = "<group>"; };
 		3AC51B2223642842003AD05F /* UIViewcontroller+AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewcontroller+AppDelegate.swift"; sourceTree = "<group>"; };
+		3ACAC59B236A950100650416 /* WorkCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCVC.swift; sourceTree = "<group>"; };
+		3ACAC59D236A951600650416 /* WorkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkCell.swift; sourceTree = "<group>"; };
+		3ACAC59F236A955800650416 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
+		3ACAC5C2236D418D00650416 /* NetwrokResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetwrokResult.swift; sourceTree = "<group>"; };
+		3ACAC5C4236D425700650416 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		3ACAC5C6236D43FD00650416 /* ResponseString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseString.swift; sourceTree = "<group>"; };
+		3ACAC5C8236D44F700650416 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		3ACAC5CA236D5BCD00650416 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		3ACAC5CC236D5ED800650416 /* SignUpVO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVO.swift; sourceTree = "<group>"; };
+		3ACAC5CE236D5F1900650416 /* SignUpService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpService.swift; sourceTree = "<group>"; };
 		3AFD48F12351959400122639 /* 2nd_seminar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 2nd_seminar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AFD48F42351959400122639 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AFD48F62351959400122639 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -82,6 +102,8 @@
 			children = (
 				3AC51B1923641D0C003AD05F /* BannerCell.swift */,
 				3AC51B1F23642251003AD05F /* BannerCVCViewController.swift */,
+				3ACAC59B236A950100650416 /* WorkCVC.swift */,
+				3ACAC59D236A951600650416 /* WorkCell.swift */,
 			);
 			path = Third;
 			sourceTree = "<group>";
@@ -92,6 +114,19 @@
 				3AC51B2223642842003AD05F /* UIViewcontroller+AppDelegate.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		3ACAC5C1236D416700650416 /* API Services */ = {
+			isa = PBXGroup;
+			children = (
+				3ACAC5C2236D418D00650416 /* NetwrokResult.swift */,
+				3ACAC5C4236D425700650416 /* APIConstants.swift */,
+				3ACAC5C6236D43FD00650416 /* ResponseString.swift */,
+				3ACAC5CC236D5ED800650416 /* SignUpVO.swift */,
+				3ACAC5C8236D44F700650416 /* LoginService.swift */,
+				3ACAC5CE236D5F1900650416 /* SignUpService.swift */,
+			);
+			path = "API Services";
 			sourceTree = "<group>";
 		};
 		3AFD48E82351959400122639 = {
@@ -131,6 +166,7 @@
 				3AFD48F82351959400122639 /* ViewController.swift */,
 				3AFD490B23519C2E00122639 /* FirstVC.swift */,
 				3ABE14D92351C33C00558EC6 /* LoginVC.swift */,
+				3ACAC5CA236D5BCD00650416 /* SignUpVC.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -138,6 +174,7 @@
 		3AFD4909235195D300122639 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				3ACAC5C1236D416700650416 /* API Services */,
 				3AFD48FA2351959400122639 /* Main.storyboard */,
 				3AFD48FD2351959500122639 /* Assets.xcassets */,
 				3AFD48FF2351959500122639 /* LaunchScreen.storyboard */,
@@ -153,6 +190,7 @@
 				3AFD48F42351959400122639 /* AppDelegate.swift */,
 				3AFD48F62351959400122639 /* SceneDelegate.swift */,
 				3AC51B1D236420B5003AD05F /* Banner.swift */,
+				3ACAC59F236A955800650416 /* Work.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -283,12 +321,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AFD48F92351959400122639 /* ViewController.swift in Sources */,
+				3ACAC5C7236D43FD00650416 /* ResponseString.swift in Sources */,
+				3ACAC5C3236D418D00650416 /* NetwrokResult.swift in Sources */,
 				3AC51B2323642842003AD05F /* UIViewcontroller+AppDelegate.swift in Sources */,
 				3AC51B1A23641D0C003AD05F /* BannerCell.swift in Sources */,
+				3ACAC5C5236D425700650416 /* APIConstants.swift in Sources */,
 				3AFD49192351A1E300122639 /* TwoVC.swift in Sources */,
+				3ACAC5CB236D5BCD00650416 /* SignUpVC.swift in Sources */,
+				3ACAC5CD236D5ED800650416 /* SignUpVO.swift in Sources */,
 				3ABE14DA2351C33C00558EC6 /* LoginVC.swift in Sources */,
 				3AFD49172351A1B600122639 /* OneVC.swift in Sources */,
 				3AFD490C23519C2E00122639 /* FirstVC.swift in Sources */,
+				3ACAC59C236A950100650416 /* WorkCVC.swift in Sources */,
+				3ACAC5A0236A955800650416 /* Work.swift in Sources */,
+				3ACAC59E236A951600650416 /* WorkCell.swift in Sources */,
+				3ACAC5C9236D44F700650416 /* LoginService.swift in Sources */,
+				3ACAC5CF236D5F1900650416 /* SignUpService.swift in Sources */,
 				3AFD48F52351959400122639 /* AppDelegate.swift in Sources */,
 				3AC51B1E236420B5003AD05F /* Banner.swift in Sources */,
 				3AFD48F72351959400122639 /* SceneDelegate.swift in Sources */,
